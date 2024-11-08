@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="cv.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center; /* Căn giữa theo chiều ngang */
+            align-items: center; /* Căn giữa theo chiều dọc */
+            height: 100vh; /* Đặt chiều cao của body bằng với chiều cao viewport */
+        }
+
+        .container {
+            display: flex;
+            width: 60%; /* Đặt chiều rộng của container */
+            height: auto;
+            margin: 20px auto; /* Thêm khoảng cách trên và dưới */
+        }
+
+        .left-column {
+            width: 30%;
+            background-color: #18384cd8;
+            color: white;
+            padding: 20px;
+        }
+
+        .right-column {
+            width: 70%;
+            background-color: #ecf0f1;
+            color: black;
+            padding: 20px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #bdc3c7;
+            padding-bottom: 10px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .trung {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            object-fit: cover; /* Bảo đảm ảnh không bị méo */
+            display: block;
+            margin: 15px auto; /* Căn giữa ảnh và thêm khoảng cách dưới */
+            border: 3px solid rgb(14, 166, 226); /* Thêm viền màu xanh */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Thêm hiệu ứng bóng đổ */
+        }
+
+        .kieuchu {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .cha {
+            border: 3px solid #2980b9; /* Viền nổi màu xanh biển */
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 5px;
+            width: auto;
+            height: auto; /* Tăng chiều cao để dễ quan sát */
+        }
+
+        .icon-text {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+        .icon {
+            width: 30px;
+            margin-right: 8px; /* Thêm khoảng cách giữa icon và văn bản nếu cần */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <img src="../images/KHAC TRUNG.jpg" class="trung">
+            <h2 class="kieuchu"><b>Thông tin cá nhân</b></h2>
+            <div class="cha">
+                <div style="color:black;font-family:'Times New Roman', Times, serif;padding:0px 10px"><b>Họ tên:</b> Nguyễn Khắc Trung</div>
+                <div style="color:black;font-family:'Times New Roman', Times, serif;padding:0px 10px"><p><b>Ngày sinh:</b> 03/12/2005</p></div>
+                <div style="color:black;font-family:'Times New Roman', Times, serif;padding:0px 10px"><p><b>Quê quán:</b> Campuchia</p></div>
+                <div style="color:black;font-family:'Times New Roman', Times, serif;padding:0px 10px"><p><b>Nơi sinh:</b> Đồng Nai</p></div>
+                <div style="color:black;font-family:'Times New Roman', Times, serif;padding:0px 10px"><p><b>Nơi ở:</b> Xuân Hiệp, Xuân Lộc, Đồng Nai</p></div>
+                <div style="color:black;font-family:'Times New Roman', Times, serif;padding:0px 10px"><p><b>Vị trí ứng tuyển:</b> Trợ giảng hoặc gia sư môn toán cấp 2, cấp 3.</p></div>
+                <div style="color:black;font-family:'Times New Roman', Times, serif;padding:0px 10px"><p><b>Trình độ học vấn:</b> Đại học</p></div>
+                <div style="color:black;font-family:'Times New Roman', Times, serif;padding:0px 10px"><p><b>Học tập tại:</b> Trường Đại học Sư phạm TPHCM</p></div>
+                <div style="color:black;font-family:'Times New Roman', Times, serif;padding:0px 10px"><p><b>Ngành học:</b> Sư phạm Tin học</p></div>
+            </div>
+            <div class="icon-text"> 
+                <img src="../images/gmail.png" style="width: 30px; margin-right: 8px;"><div style="margin-right: 5px"><b>Gmail:</b></div> trung@gmail.com 
+            </div>
+            <div class="icon-text"> 
+                <img src="../images/dienthoai.png " style="width: 20px; margin-right: 13px;margin-left:4px;"><div style="margin-right: 5px"><b>SĐT:</b></div> 0333333333
+            </div>
+            <div class="icon-text"> 
+                <img src="../images/fb.png" style="width: 27px; margin-right: 11px;margin-left: 1px"><div style="margin-right: 5px"><b>FB:</b></div> Nguyễn Khắc Trung
+            </div>
+        </div>
+        <div class="right-column">
+            <h2>Thành tựu</h2>
+            <p>- Đạt danh hiệu <i>Cháu ngoan Bác Hồ</i> 9 năm liên tục.</p>
+            <p>- Đạt danh hiệu <i>Học sinh giỏi lớp 12</i> năm học 2023-2024.</p>
+            <p>- Được Liên đoàn Lao động huyện Xuân Lộc tuyên dương <i>Học giỏi - Sống tốt.</i></p>
+            <p>- Đạt danh hiệu <i>Học sinh thanh lịch</i> năm học 2022-2023. </p>
+            <p>- Đạt danh hiệu <i>Học sinh gương mẫu</i> năm học 2022-2023.</p>
+            <h2>Kinh nghiệm làm việc</h2>
+            <p>- Có kinh nghiệm 2 năm giảng dạy STEM tại trung tâm Star Academy.</p>
+            <p>- Hỗ trợ nghiên cứu phát triển phần mềm Icloumedy.</p>
+            <p>- Hỗ trợ các học sinh/sinh viên các môn toán cơ sở.</p>
+            <h2>Học vấn</h2>
+            <p>- Từng học tại trường THPT Xuân Lộc.</p>
+            <p>- Sinh viên năm nhất tại trường Đại học Sư phạm Thành Phố Hồ Chí Minh.</p>
+            <h2>Kỹ năng</h2>
+            <p>- Kỹ năng làm việc nhóm và xử lí vấn đề cao.</p>
+            <p>- Khả năng giao tiếp, ứng xử tốt .</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100vh; /* Đặt chiều cao của body bằng với chiều cao viewport */
+}
+
+.container {
+    display: flex;
+    width: 60%; /* Đặt chiều rộng của container */
+    height: auto;
+    margin: 20px auto; /* Thêm khoảng cách trên và dưới */
+    font-family:'Times New Roman', Times, serif
+
+}
+
+.left-column {
+    justify-content: center;
+    width: 30%;
+    background-color: #18384cd8;
+    color: white;
+    padding: 20px;
+}
+
+.right-column {
+    width: 70%;
+    background-color: #ecf0f1;
+    color: black;
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #bdc3c7;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+.trung
+{   
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    object-fit: cover; /* Bảo đảm ảnh không bị méo */
+    display: block;
+    margin: 15px auto 15px; /* Căn giữa ảnh và thêm khoảng cách dưới */
+    border: 3px rgb(14, 166, 226); /* Thêm viền màu xanh */
+    border-style:solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Thêm hiệu ứng bóng đổ */
+
+}
+.kieuchu{
+    font-family:'Times New Roman', Times, serif
+}
+.cha {
+        border: 3px #2980b9; /* Viền nổi màu xanh biển */
+        border-style:solid;
+        padding: 10px;
+        margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px 0;
+    width: 250px;
+    height: 350px; /* Tăng chiều cao để dễ quan sát */
+}
+.icon-text {
+     display: flex; 
+     align-items: center; 
+     font-family:'Times New Roman', Times, serif;
+    }
+
